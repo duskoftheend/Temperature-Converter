@@ -1,0 +1,182 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#B3E2A7 70%, #80B9AD 35%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Box1 {
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    height: 24vh;
+    background-color: #6295A2;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid #538392;
+    border-radius: 25px;
+    font-family: monospace;
+    color: #B3E2A7;
+}
+
+#textbox {
+    background-color: #B3E2A7;
+    border: 1px solid #538392;
+    font-family: monospace;
+    color: #6295A2;
+}
+
+#textbox:focus {
+    outline: none;
+}
+
+#F2C, #C2F {
+    accent-color: #6295A2;
+}
+
+#Convert {
+    background-color: #B3E2A7;
+    font-family: monospace;
+    border: 1px solid #538392;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6295A2;
+}
+
+#Convert:active {
+    box-shadow: 2px 2px 2px #538392;
+}
+
+#Box2 {
+    display: flex;
+    width: 80%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3E2A7;
+    border: 1px solid #538392;
+    border-radius: 10px;
+    font-family: monospace;
+    color: #538392;
+}
+
+@media screen and (max-width: 1500px) {
+    #Box1 {
+        width: 26vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #Box1 {
+        width: 28vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #Box1 {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #Box1 {
+        width: 32vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #Box1 {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #Box1 {
+        width: 37vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #Box1 {
+        width: 39vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #Box1 {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #Box1 {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #Box1 {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #Box1 {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #Box1 {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #Box1 {
+        width: 96vw;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    #Box1 {
+        height: 28vh;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    #Box1 {
+        height: 34vh;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #Box1 {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #Box1 {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #Box1 {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 350px) {
+    #Box1 {
+        height: 90vh;
+    }
+}
